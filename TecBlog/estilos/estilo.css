@@ -26,22 +26,25 @@ body {
 
 #areaPrincipal {
     width: 920px;
+    height: ;
     padding: 15px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 #areaPostagens {
     width: 660px;
-    float: left;
+    
     padding: 20px;
-    position: absolute;
+    position: relative;
+    border: blue 1px solid;
 }
 
 .Postagem {
     background-color: #FFF;
     margin-bottom: 20px;
     padding: 20px;
-    /*border: 1px red solid;*/
+    border: 1px black solid;
 }
 
 #menusLaterais {
@@ -64,15 +67,20 @@ body {
     border-bottom: 1px dotted #CCC;
 }
 
+.clear {
+    clear: left;
+}
+
 
 #rodaPe {
-    clear: both;
+    /*clear: both;*/
     margin-left: 20px;
-    padding: 15px;
+    width: auto;
+    padding: 30px;
     background-color: #D1CFCB;
     text-align: center;
-    position: relative;
-    top: 83em;
+    /*position: relative;*/
+    top: 10px;
 }
 
 /*
@@ -109,8 +117,8 @@ body.jogos #areaNavBar a#jogos,
 body.celulares #areaNavBar a#celulares,
 body.informatica #areaNavBar a#informatica,
 body.eletronicos #areaNavBar a#eletronicos{
-    color:#f7b600;
-    background-color: #e6e6e6;
+    color:#FFF;
+    background-color: #E0A500;
     cursor: text;
 }
 
