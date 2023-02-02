@@ -26,7 +26,6 @@ body {
 
 #areaPrincipal {
     width: 920px;
-    height: ;
     padding: 15px;
     margin: 0 auto;
     border: 1px solid red;
@@ -34,9 +33,9 @@ body {
 
 #areaPostagens {
     width: 660px;
-    
-    padding: 20px;
-    position: relative;
+    /*padding: 20px;*/
+    float: left;
+    /*position: relative;*/
     border: blue 1px solid;
 }
 
@@ -47,12 +46,30 @@ body {
     border: 1px black solid;
 }
 
+.teste {
+    padding: 0;
+}
+
+.teste:visited {
+    color: black;
+}
+
+.teste:hover {
+    color: #247fa3;
+    padding:0;
+    text-decoration: none;
+}
+
+.imagemPostagem {
+    background-color: #474745;
+    background-position: center;
+}
+
+/******** LATERAL **********/
+
 #menusLaterais {
     width: 240px;
     float: right;
-    position: absolute;
-    top: 10em;
-    right: 29em;
 }
 
 .conteudoLateral {
@@ -67,20 +84,20 @@ body {
     border-bottom: 1px dotted #CCC;
 }
 
+/******** LATERAL **********/
+
 .clear {
     clear: left;
+    opacity: 0;
 }
 
 
 #rodaPe {
-    /*clear: both;*/
-    margin-left: 20px;
     width: auto;
     padding: 30px;
     background-color: #D1CFCB;
     text-align: center;
-    /*position: relative;*/
-    top: 10px;
+
 }
 
 /*

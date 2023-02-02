@@ -2,7 +2,4 @@
 
 // POSTAGENS ENQUANTO OBJETOS
 
-const postagem1 = {
-    categoria: 'informatica',
-    
-}
+const postagens = []
