@@ -22,7 +22,10 @@ body {
 #areaLogo,
 #areaNavBar {
     padding: 10px;
+    cursor: pointer;
 }
+
+/************* AREA DE POSTAGENS *************/
 
 #areaPrincipal {
     width: 920px;
@@ -60,10 +63,94 @@ body {
     text-decoration: none;
 }
 
-.imagemPostagem {
-    background-color: #474745;
-    background-position: center;
+#botaoPreferencias{
 }
+
+#botaoPreferencias:hover{
+    background-color: #247fa3;
+    padding: 0;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid #247fa3;
+    display: block;
+}
+
+.botãoNotificação{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;    
+
+    margin-top: 12px;
+    padding: 4px;
+
+
+    border-radius: 20px;
+    color: white;
+    background-color: #FFBF43;
+    border: 1px solid #FFBF43 ;
+    cursor: pointer;
+    
+}
+
+
+section.img {
+    width: 620px;
+    height: 425px;
+    position: relative;
+    position: center;
+    
+
+    background-image: url(../assets/imagem1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+
+}
+
+
+
+section.img2 {
+    width: 620px;
+    height: 425px;
+    position: relative;
+    position: center;
+
+    background-image: url(../assets/imagem2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+    background-color: black;
+    opacity: 0;
+
+}
+
+.overlay:hover{
+    opacity: 0.3;
+}
+
+/*.imagemPostagem {
+    border-radius: 14px;
+}*/
+
+
+
 
 /******** LATERAL **********/
 
@@ -130,7 +217,7 @@ a:hover {
 
 
 body.home #areaNavBar a#home,
-body.jogos #areaNavBar a#jogos,
+body.meusDestaques #areaNavBar a#meusDestaques,
 body.celulares #areaNavBar a#celulares,
 body.informatica #areaNavBar a#informatica,
 body.eletronicos #areaNavBar a#eletronicos{
