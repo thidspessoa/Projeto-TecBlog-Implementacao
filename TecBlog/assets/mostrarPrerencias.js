@@ -85,7 +85,7 @@ const postagensCelular = [
 ]
 
 
-const teste = [10, 20, 'Jujuba']
+// const teste = [10, 20, 'Jujuba']
 
 /***** CHAMANDO INDICES DA ARRAY *******/
 
@@ -123,3 +123,11 @@ if (index > -1) {
 console.log(index) //Caso nenhum elemento de acordo coma função de teste for encontrado dentro do objeto, irá retornar -1*/
 
 let index = postagensCelular.findIndex((postagensCelular) )
+
+function teste () {
+    console.log('Passando por aqui!')
+    const h1 = document.getElementById('tituloSelec');
+    h1.textContent = 'OBRIGADO!';
+}
+
+debug(teste);
