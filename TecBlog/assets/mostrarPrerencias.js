@@ -124,10 +124,17 @@ console.log(index) //Caso nenhum elemento de acordo coma função de teste for e
 
 let index = postagensCelular.findIndex((postagensCelular) )
 
+
+
 function teste () {
-    console.log('Passando por aqui!')
-    const h1 = document.getElementById('tituloSelec');
-    h1.textContent = 'OBRIGADO!';
+    const tipo = document.getElementById('tema').value;
+    console.log(tipo)
+
+    var testao = [];
+    testao.push(tipo);
+    console.log(testao);
 }
 
-debug(teste);
+
+
+
