@@ -1,88 +1,87 @@
-//alert("Digite suas preferencias")
+/*  =======================================================================================
+                        ARMAZENAR EM ARRAYS AS CAIXAS DE SELEÇÃO DE GENERO
+    ======================================================================================*/
 
-// POSTAGENS ENQUANTO OBJETOS
+    const selectBox = [
+        {
+            id: 1,
+            categoria: "Acessibilidades",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 2,
+            categoria: "Tecnologia",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 3,
+            categoria: "Celulares",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 4,
+            categoria: "informatica",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 5,
+            categoria: "Programação",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 6,
+            categoria: "New World",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 7,
+            categoria: "Emprego",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 8,
+            categoria: "Programas e estudo",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 9,
+            categoria: "Artigos cientificos",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        },
+        {
+            id: 10,
+            categoria: "Na sua região",
+            selected: false,
+            imagem: 
+                '../assets/imagem1.jpg',
+        }
+    ];
 
-const postagensTecnologia = [
-    {
-        id: 1,
-        categoria: "Tecnologia",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"30/12/2019",
-        imagem: 
-            '../assets/imagem3.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    
 
-    },
-    {
-        id: 2,
-        categoria: "Tecnologia",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"30/12/2019",
-        imagem: 
-            '../assets/imagem2.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
 
-    },
-    {
-        id: 3,
-        categoria: "Tecnologia",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"02/02/2019",
-        imagem: 
-            '../assets/imagem1.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+/*  =======================================================================================
+                        RENDERIZAR A CAIXA DE SELEÇÃO E AS BOXES
+    ======================================================================================*/
 
-    },
-    {
-        id: 5,
-        categoria: "Tecnologia",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"02/02/2019",
-        imagem: 
-            '../assets/imagem1.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    }
-]
-
-const postagensCelular = [
-    {
-        id: 4,
-        categoria: "Celular",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"30/12/2019",
-        imagem: 
-            '../assets/imagem3.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-
-    }, //Indice 0
-    {
-        id: 20,
-        categoria: "Celular",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"30/12/2019",
-        imagem: 
-            '../assets/imagem2.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-
-    }, //Indice 1
-    {
-        id: 13,
-        categoria: "Celular",
-        titulo: "Lorem Ipsum is simply dummy text.",
-        dataPostagem:"02/02/2019",
-        imagem: 
-            '../assets/imagem1.jpg',
-        previa: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-
-    } //Indice 2
-]
 
 
 // const teste = [10, 20, 'Jujuba']
